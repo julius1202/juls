@@ -1,0 +1,19 @@
+/*!
+ * Font Awesome Free 6.0.0 by @fontawesome - https://fontawesome.com
+ * License - https://fontawesome.com/license/free (Commercial License)
+ */
+@font-face {
+  font-family: 'Font Awesome 6 Free';
+  font-style: normal;
+  font-weight: 900;
+  src: url('fa-solid-900.woff') format('woff');
+}
+.fa, .fas {
+  font-family: 'Font Awesome 6 Free';
+  font-weight: 900;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
