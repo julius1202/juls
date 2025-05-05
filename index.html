@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Tulflix - Your ultimate streaming platform for movies and TV shows" />
+  <title>Tulflix</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/fontawesome/all.min.css" />
+  <script src="js/scripts.js" defer></script>
+</head>
+<body>
+  <a href="#mainContent" class="skip-link">Skip to main content</a>
+  <header role="banner">
+      <div class="netflixLogo">
+        <a id="logo" href="index.html" aria-label="Go to Tulflix homepage">
+          <img src="images/logo.png" alt="Tulflix logo, home page link" />
+        </a>
+      </div>
+    <nav class="main-nav" role="navigation" aria-label="Main navigation">
+      <a href="#popular-heading" aria-label="Go to Popular section">Home</a>
+      <a href="#tv-shows" aria-label="Go to TV Shows section">TV Shows</a>
+      <a href="#movies" aria-label="Go to Movies section">Movies</a>
+      <a href="#originals" aria-label="Go to Originals section">Originals</a>
+    </nav>
+    <nav class="sub-nav" role="navigation" aria-label="User navigation">
+      <div class="search-container" role="search" aria-label="Search movies and TV shows">
+          <button class="search-toggle" aria-label="Toggle search">
+            <i class="fas fa-search" aria-hidden="true"></i>
+          </button>
+          <div class="search-bar">
+            <input type="search" placeholder="Search movies, TV shows..." aria-label="Search movies and TV shows">
+            <button class="search-close" aria-label="Close search">
+              <i class="fas fa-times" aria-hidden="true"></i>
+            </button>
+          </div>
+        </div>
+        <a href="Signin.html" class="account-btn" aria-label="Go to Account page">Account</a>
+      </nav>
+    </header>
+    <main id="mainContent" role="main">
+      <section class="main-container">
+        <div class="location" role="region" aria-labelledby="popular-heading">
+          <div class="section-header">
+            <h1 id="popular-heading">Popular on Tulflix</h1>
+          </div>
+          <div class="box-container">
+            <button class="scroll-btn scroll-left" aria-label="Scroll left">
+              <i class="fas fa-chevron-left" aria-hidden="true"></i>
+            </button>
+            <div class="box" role="list" aria-label="Popular movies list">
+              <figure role="listitem" aria-label="Movie 1: A thrilling adventure of heroism">
+                <a href="#" class="play-trailer-link" data-trailer="videos/BigBuckBunny.mp4" aria-label="Play Big Buck Bunny trailer">
+                  <img src="images/1.avif" alt="Movie 1 poster" loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>Movie 1</strong>
+                  <p>A thrilling adventure of heroism.</p>
+                  <button class="play-trailer-btn" data-trailer="videos/BigBuckBunny.mp4" aria-label="Play Movie 1 trailer">▶ Play Trailer</button>
+                </figcaption>
+              </figure>
+              <figure role="listitem" aria-label="Movie 2: A romantic comedy full of laughs">
+                <a href="#" class="play-trailer-link" data-trailer="videos/Sintel.mp4" aria-label="Play Sintel trailer">
+                  <img src="images/2.avif" alt="Movie 2 poster" loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>Movie 2</strong>
+                  <p>A romantic comedy full of laughs.</p>
+                  <button class="play-trailer-btn" data-trailer="videos/Sintel.mp4" aria-label="Play Movie 2 trailer">▶ Play Trailer</button>
+                </figcaption>
+              </figure>
+              <figure role="listitem" aria-label="Movie 3: A mystery that keeps you guessing">
+                <a href="#" class="play-trailer-link" data-trailer="videos/TearsOfSteel.mp4" aria-label="Play Tears of Steel trailer">
+                  <img src="images/photo-1506744038136-46273834b3fb.avif" alt="Movie 3 poster" loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>Movie 3</strong>
+                  <p>A mystery that keeps you guessing.</p>
+                  <button class="play-trailer-btn" data-trailer="videos/TearsOfSteel.mp4" aria-label="Play Movie 3 trailer">▶ Play Trailer</button>
+                </figcaption>
+              </figure>
+              <figure role="listitem" aria-label="Movie 4: An epic saga of love and war">
+                <a href="#" class="play-trailer-link" data-trailer="videos/ForBiggerBlazes.mp4" aria-label="Play For Bigger Blazes trailer">
+                  <img src="images/photo-1464983953574-0892a716854b.avif" alt="Movie 4 poster" loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>Movie 4</strong>
+                  <p>An epic saga of love and war.</p>
+                  <button class="play-trailer-btn" data-trailer="videos/ForBiggerBlazes.mp4" aria-label="Play Movie 4 trailer">▶ Play Trailer</button>
+                </figcaption>
+              </figure>
+              <figure role="listitem" aria-label="Movie 5: A heartwarming family drama">
+                <a href="#" class="play-trailer-link" data-trailer="videos/BigBuckBunny.mp4" aria-label="Play Step Up 2 trailer">
+                  <img src="images/3.jfif" alt="Movie 5 poster" loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>Movie 5</strong>
+                  <p>A heartwarming family drama.</p>
+                  <button class="play-trailer-btn" data-trailer="videos/BigBuckBunny.mp4" aria-label="Play Movie 5 trailer">▶ Play Trailer</button>
+                </figcaption>
+              </figure>
+              <figure role="listitem" aria-label="Movie 6: A sci-fi thriller with twists">
+                <a href="#" class="play-trailer-link" data-trailer="videos/Sintel.mp4" aria-label="Play Liquid Science trailer">
+                  <img src="images/4.jfif" alt="Movie 6 poster" loading="lazy" />
+                </a>
+                <figcaption>
+                  <strong>Movie 6</strong>
+                  <p>A sci-fi thriller with twists.</p>
+                  <button class="play-trailer-btn" data-trailer="videos/Sintel.mp4" aria-label="Play Movie 6 trailer">▶ Play Trailer</button>
+                </figcaption>
+              </figure>
+            </div>
+            <button class="scroll-btn scroll-right" aria-label="Scroll right">
+              <i class="fas fa-chevron-right"></i>
+            </button>
+          </div>
+        </div>
+      <div class="section-header">
+        <h2>Trending Now</h2>
+      </div>
+      <div class="box-container">
+        <button class="scroll-btn scroll-left" aria-label="Scroll left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="box">
+          <figure>
+            <a href="#" class="play-trailer-link" data-trailer="videos/LukeCage.mp4"><img src="images/5.jfif" alt="Trending Movie 1 poster" /></a>
+            <figcaption>
+              <strong>Trending 1</strong>
+              <p>Popular and trending now.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="#" class="play-trailer-link" data-trailer="videos/TheRanch.mp4"><img src="images/1.jfif" alt="Trending Movie 2 poster" /></a>
+            <figcaption>
+              <strong>Trending 2</strong>
+              <p>Popular and trending now.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="#" class="play-trailer-link" data-trailer="videos/StepUp2.mp4"><img src="images/2.jfif" alt="Trending Movie 3 poster" /></a>
+            <figcaption>
+              <strong>Trending 3</strong>
+              <p>Popular and trending now.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="#" class="play-trailer-link" data-trailer="videos/TheBalladOfHugoSanchez.mp4"><img src="images/3.jfif" alt="Trending Movie 4 poster" /></a>
+            <figcaption>
+              <strong>Trending 4</strong>
+              <p>Popular and trending now.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="#" class="play-trailer-link" data-trailer="videos/TheKissingBooth.mp4"><img src="images/4.jfif" alt="Trending Movie 5 poster" /></a>
+            <figcaption>
+              <strong>Trending 5</strong>
+              <p>Popular and trending now.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/5.jfif" alt="Trending Movie 6 poster" onerror="this.onerror=null;this.src='https://picsum.photos/300/450?random=12';" /></a>
+            <figcaption>
+              <strong>Trending 6</strong>
+              <p>Popular and trending now.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <button class="scroll-btn scroll-right" aria-label="Scroll right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="section-header">
+        <h2 id="tv-shows">TV Shows</h2>
+      </div>
+      <div class="box-container">
+        <button class="scroll-btn scroll-left" aria-label="Scroll left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="box">
+          <figure>
+            <a href="Movie.html"><img src="images/1.avif" alt="TV Show 1 poster" /></a>
+            <figcaption>
+              <strong>TV Show 1</strong>
+              <p>Exciting TV show series.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/2.avif" alt="TV Show 2 poster" /></a>
+            <figcaption>
+              <strong>TV Show 2</strong>
+              <p>Exciting TV show series.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/photo-1506744038136-46273834b3fb.avif" alt="TV Show 3 poster" /></a>
+            <figcaption>
+              <strong>TV Show 3</strong>
+              <p>Exciting TV show series.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/photo-1464983953574-0892a716854b.avif" alt="TV Show 4 poster" /></a>
+            <figcaption>
+              <strong>TV Show 4</strong>
+              <p>Exciting TV show series.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/1.jfif" alt="TV Show 5 poster" /></a>
+            <figcaption>
+              <strong>TV Show 5</strong>
+              <p>Exciting TV show series.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/2.jfif" alt="TV Show 6 poster" /></a>
+            <figcaption>
+              <strong>TV Show 6</strong>
+              <p>Exciting TV show series.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <button class="scroll-btn scroll-right" aria-label="Scroll right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="section-header">
+        <h2 id="movies">Movies</h2>
+      </div>
+      <div class="box-container">
+        <button class="scroll-btn scroll-left" aria-label="Scroll left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="box">
+          <figure>
+            <a href="Movie.html"><img src="images/3.jfif" alt="Movie 1 poster" /></a>
+            <figcaption>
+              <strong>Movie 1</strong>
+              <p>Blockbuster action and adventure.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/4.jfif" alt="Movie 2 poster" /></a>
+            <figcaption>
+              <strong>Movie 2</strong>
+              <p>Blockbuster action and adventure.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/5.jfif" alt="Movie 3 poster" /></a>
+            <figcaption>
+              <strong>Movie 3</strong>
+              <p>Blockbuster action and adventure.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/Bigbuckbunny.png" alt="Movie 4 poster" /></a>
+            <figcaption>
+              <strong>Movie 4</strong>
+              <p>Blockbuster action and adventure.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/sintel.jfif" alt="Movie 5 poster" /></a>
+            <figcaption>
+              <strong>Movie 5</strong>
+              <p>Blockbuster action and adventure.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/tears of steel.jpg" alt="Movie 6 poster" /></a>
+            <figcaption>
+              <strong>Movie 6</strong>
+              <p>Blockbuster action and adventure.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <button class="scroll-btn scroll-right" aria-label="Scroll right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <div class="section-header">
+        <h2 id="originals">Originals</h2>
+      </div>
+      <div class="box-container">
+        <button class="scroll-btn scroll-left" aria-label="Scroll left">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="box">
+          <figure>
+            <a href="Movie.html"><img src="images/Bigbuckbunny.png" alt="Big Buck Bunny" /></a>
+            <figcaption>
+              <strong>Original 1</strong>
+              <p>Exclusive Tulflix original content.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/sintel.jfif" alt="Sintel" /></a>
+            <figcaption>
+              <strong>Original 2</strong>
+              <p>Exclusive Tulflix original content.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/tears of steel.jpg" alt="Tears of Steel" /></a>
+            <figcaption>
+              <strong>Original 3</strong>
+              <p>Exclusive Tulflix original content.</p>
+            </figcaption>
+          </figure>
+          <figure>
+            <a href="Movie.html"><img src="images/ForBiggerBlazes.jpg" alt="For Bigger Blazes" /></a>
+            <figcaption>
+              <strong>Original 4</strong>
+              <p>Exclusive Tulflix original content.</p>
+            </figcaption>
+          </figure>
+        </div>
+        <button class="scroll-btn scroll-right" aria-label="Scroll right">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+      <section class="link" aria-label="Social media links">
+        <div class="logos">
+          <a href="https://www.facebook.com/tulflix" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Facebook">
+            <i class="fab fa-facebook-square fa-2x"></i>
+          </a>
+          <a href="https://www.instagram.com/tulflix" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Instagram">
+            <i class="fab fa-instagram fa-2x"></i>
+          </a>
+          <a href="https://twitter.com/tulflix" target="_blank" rel="noopener noreferrer" aria-label="Follow us on Twitter">
+            <i class="fab fa-twitter fa-2x"></i>
+          </a>
+          <a href="https://www.youtube.com/tulflix" target="_blank" rel="noopener noreferrer" aria-label="Subscribe to our YouTube channel">
+            <i class="fab fa-youtube fa-2x"></i>
+          </a>
+        </div>
+      </section>
+      <footer>
+        <p>&copy; 2024 Tulflix. All rights reserved.</p>
+      </footer>
+    </section>
+
+    <!-- Modal for More Info -->
+    <div id="infoModal" class="modal" style="display:none;" role="dialog" aria-modal="true" aria-labelledby="modalTitle" aria-describedby="modalDesc">
+      <div class="modal-content" id="modalContent">
+        <span id="closeModal" class="close" role="button" tabindex="0" aria-label="Close modal">&times;</span>
+      </div>
+    </div>
+
+    <!-- Modal Video Player -->
+    <div id="trailerModal" class="modal" style="display:none;">
+      <div class="modal-video-content">
+        <span id="closeTrailerModal" class="close" role="button" tabindex="0" aria-label="Close modal">&times;</span>
+        <video id="trailerPlayer" controls poster="images/movie1.jpg">
+          <source src="" type="video/mp4">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+
+    <style>
+      .modal {
+        position: fixed;
+        z-index: 2000;
+        left: 0; top: 0; width: 100vw; height: 100vh;
+        background: rgba(0,0,0,0.85);
+        display: flex; align-items: center; justify-content: center;
+        transition: opacity 0.3s;
+      }
+      .modal-video-content {
+        position: relative;
+        background: #181818;
+        border-radius: 10px;
+        box-shadow: 0 0 40px #000;
+        padding: 0;
+        max-width: 900px;
+        width: 90vw;
+        max-height: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+      }
+      .modal-video-content video {
+        width: 100%;
+        max-height: 70vh;
+        border-radius: 10px;
+        background: #000;
+      }
+      .modal .close {
+        color: #fff;
+        font-size: 2.5rem;
+        font-weight: bold;
+        position: absolute;
+        top: 10px; right: 24px;
+        cursor: pointer;
+        z-index: 10;
+        transition: color 0.2s;
+      }
+      .modal .close:hover { color: #FF4500; }
+      .play-trailer-btn {
+        margin-top: 10px;
+        background: #FF4500;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        padding: 8px 20px;
+        font-size: 1rem;
+        font-weight: 700;
+        cursor: pointer;
+        transition: background 0.2s;
+      }
+      .play-trailer-btn:hover { background: #e03e00; }
+    </style>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        const modal = document.getElementById('trailerModal');
+        const player = document.getElementById('trailerPlayer');
+        const closeBtn = document.getElementById('closeTrailerModal');
+        document.querySelectorAll('.play-trailer-btn').forEach(btn => {
+          btn.addEventListener('click', function(e) {
+            e.preventDefault();
+            const src = btn.getAttribute('data-trailer');
+            player.querySelector('source').src = src;
+            player.load();
+            modal.style.display = 'flex';
+            player.play();
+          });
+        });
+        closeBtn.addEventListener('click', function() {
+          modal.style.display = 'none';
+          player.pause();
+          player.currentTime = 0;
+        });
+        modal.addEventListener('click', function(e) {
+          if (e.target === modal) {
+            modal.style.display = 'none';
+            player.pause();
+            player.currentTime = 0;
+          }
+        });
+        document.addEventListener('keydown', function(e) {
+          if (e.key === 'Escape' && modal.style.display === 'flex') {
+            modal.style.display = 'none';
+            player.pause();
+            player.currentTime = 0;
+          }
+        });
+      });
+    </script>
+  </main>
+</body>
+</html>

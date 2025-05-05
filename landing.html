@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Welcome to Tulflix - Your ultimate streaming platform for movies and TV shows" />
+    <title>Tulflix</title>
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+    <link rel="stylesheet" href="css/fontawesome/all.min.css" />
+    <style>
+      body.landing {
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        background: linear-gradient(120deg, #141414 80%, #FF4500 100%);
+      }
+      .landing-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 32px 48px 0 48px;
+      }
+      .landing-logo img {
+        height: 48px;
+      }
+      .landing-signin {
+        background: #FF4500;
+        color: #fff;
+        padding: 12px 32px;
+        border-radius: 5px;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 18px;
+        transition: background 0.3s;
+      }
+      .landing-signin:hover {
+        background: #e03e00;
+      }
+      .hero-landing {
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        color: #fff;
+        padding: 60px 20px 0 20px;
+      }
+      .hero-landing h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin-bottom: 24px;
+        letter-spacing: 2px;
+      }
+      .hero-landing p {
+        font-size: 1.5rem;
+        margin-bottom: 40px;
+        color: #e5e5e5;
+      }
+      .hero-landing .landing-signin {
+        font-size: 1.25rem;
+        padding: 16px 40px;
+      }
+      @media (max-width: 600px) {
+        .landing-header { padding: 20px 10px 0 10px; }
+        .hero-landing h1 { font-size: 2rem; }
+        .hero-landing p { font-size: 1rem; }
+      }
+    </style>
+</head>
+<body class="landing">
+  <header class="landing-header">
+    <div class="landing-logo">
+      <a href="index.html"><img src="images/logo.png" alt="Tulflix Logo" /></a>
+    </div>
+    <a href="signin.html" class="landing-signin">Sign In</a>
+  </header>
+  <main class="hero-landing">
+    <h1>Unlimited movies, TV shows, and more.</h1>
+    <p>Watch anywhere. Cancel anytime. Ready to watch? Click below to sign in and start your journey.</p>
+    <a href="Signin.html" class="landing-signin">Sign In</a>
+  </main>
+</body>
+</html>

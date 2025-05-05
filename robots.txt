@@ -1,0 +1,7 @@
+User-agent: *
+Allow: /
+Disallow: /videos/
+Disallow: /images/
+
+# Sitemap location
+Sitemap: https://yourdomain.com/sitemap.xml 

@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Sign in to Tulflix - Your ultimate streaming platform" />
+  <title>Sign In - Tulflix</title>
+  <link rel="icon" type="image/x-icon" href="images/favicon.ico" />
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
+  <link rel="stylesheet" href="css/fontawesome/all.min.css" />
+  <style>
+    .signin-container {
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      background-color: #141414;
+    }
+
+    .signin-header {
+      padding: 20px 40px;
+      position: fixed;
+      top: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+
+    .signin-logo {
+      height: 45px;
+    }
+
+    .signin-content {
+      flex: 1;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 80px 20px;
+    }
+
+    .signin-form {
+      background-color: rgba(0, 0, 0, 0.75);
+      padding: 60px;
+      border-radius: 8px;
+      width: 100%;
+      max-width: 450px;
+    }
+
+    .signin-title {
+      color: #fff;
+      font-size: 32px;
+      margin-bottom: 28px;
+    }
+
+    .form-group {
+      margin-bottom: 16px;
+    }
+
+    .form-input {
+      width: 100%;
+      padding: 16px;
+      background-color: #333;
+      border: none;
+      border-radius: 4px;
+      color: #fff;
+      font-size: 16px;
+    }
+
+    .form-input:focus {
+      outline: none;
+      background-color: #454545;
+    }
+
+    .signin-button {
+      width: 100%;
+      padding: 16px;
+      background-color: #FF4500;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      font-size: 16px;
+      font-weight: 700;
+      cursor: pointer;
+      margin-top: 24px;
+      transition: background-color 0.3s ease;
+    }
+
+    .signin-button:hover {
+      background-color: #e03e00;
+    }
+
+    .form-options {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 12px;
+      color: #b3b3b3;
+      font-size: 13px;
+    }
+
+    .remember-me {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .need-help {
+      color: #b3b3b3;
+      text-decoration: none;
+    }
+
+    .need-help:hover {
+      text-decoration: underline;
+    }
+
+    .signup-prompt {
+      margin-top: 16px;
+      color: #737373;
+    }
+
+    .signup-link {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    .signup-link:hover {
+      text-decoration: underline;
+    }
+
+    .recaptcha {
+      margin-top: 13px;
+      font-size: 13px;
+      color: #8c8c8c;
+    }
+
+    @media (max-width: 480px) {
+      .signin-form {
+        padding: 20px;
+      }
+
+      .signin-title {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body class="signin-container">
+  <header class="signin-header">
+    <a href="index.html">
+      <img src="images/logo.png" alt="Tulflix Logo" class="signin-logo" />
+    </a>
+  </header>
+  <main class="signin-content">
+    <form class="signin-form" action="index.html" method="get">
+      <h1 class="signin-title">Sign In</h1>
+      <div class="form-group">
+        <label for="email" class="visually-hidden">Email or phone number</label>
+        <input type="email" id="email" class="form-input" placeholder="Email or phone number" required />
+      </div>
+      <div class="form-group">
+        <label for="password" class="visually-hidden">Password</label>
+        <input type="password" id="password" class="form-input" placeholder="Password" required />
+      </div>
+      <button type="submit" class="signin-button">Sign In</button>
+      <div class="form-options">
+        <label class="remember-me">
+          <input type="checkbox" id="remember" />
+          <span>Remember me</span>
+        </label>
+        <a href="#" class="need-help">Need help?</a>
+      </div>
+      <div class="signup-prompt">
+        New to Tulflix? <a href="#" class="signup-link">Sign up now</a>.
+      </div>
+      <div class="recaptcha">
+        This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+      </div>
+    </form>
+  </main>
+</body>
+</html>
